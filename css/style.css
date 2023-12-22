@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: white;
 }
 
@@ -10,15 +10,14 @@ body{
 }
 
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
+
 }
 
 /* ==================HEADER================== */
 .header {}
 
-#logo {
-    color:#4D5AE5;
+.logo {
+    color:#2e2f42;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -28,6 +27,16 @@ body{
 }
 
 .header-navigation {}
+
+.header-navigation-logo{
+    color: #4d5ae5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
 .header-navigation-link {
     color: #2E2F42;
@@ -39,6 +48,10 @@ body{
     letter-spacing: 0.02em;
 }
 
+.header-navigation-lin:hover,
+.header-navigation-link:focus{
+    color: #404BBF;
+}
 
 .header-navigation-list {}
 
@@ -49,7 +62,9 @@ body{
     color: #404BBF;
 }
 
-.header-address {}
+.header-address {
+    font-style: normal;
+}
 
 .header-address-list {}
 
@@ -59,7 +74,6 @@ body{
     color: #434455;
     font-family: inherit;
     font-size: 16px;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -71,7 +85,9 @@ body{
 /* ========================================== */
 
 /* ==================SECTION HERO IMAGE================== */
-.hero-image {}
+.hero-image {
+    background-color: #2e2f42;
+}
 
 .hero-image-title{
     color: #FFF;
@@ -90,8 +106,13 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    background-color: #4D5AE5
 }
 
+.hero-image-btn:focus,
+.hero-image-btn:hover{
+    background-color: #404BBF
+}
 /* ========================================== */
 
 /* ==================SECTION FEATURE================== */
@@ -121,7 +142,9 @@ body{
 
 /* ==================SECTION TEAM================== */
 
-.team {}
+.team {
+    background-color: #F4F4FD
+}
 
 .team-title {
     text-align: center;
@@ -132,7 +155,9 @@ body{
     text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF
+}
 
 .team-list-items {}
 
@@ -147,6 +172,7 @@ body{
 }
 
 .team-text {
+    color: #434455;
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
@@ -183,6 +209,7 @@ body{
 }
 
 .portfolio-text {
+    color: #434455;
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
@@ -193,11 +220,13 @@ body{
 
 /* ==================FOOTER================== */
 
-.footer {}
+.footer {
+    background-color:#2E2F42
+}
 
 .footer-link {
-    color: #F4F4FD;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
