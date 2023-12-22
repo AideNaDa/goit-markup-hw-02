@@ -14,10 +14,11 @@ body{
 }
 
 /* ==================HEADER================== */
-.header {}
+.header {
+    font-family: "Raleway", sans-serif;
+}
 
 .header-logo {
-    font-family: "Raleway", sans-serif;
     color:#2e2f42;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -30,6 +31,7 @@ body{
 .header-navigation {}
 
 .header-navigation-logo{
+    font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     font-family: Raleway;
     font-size: 18px;
@@ -170,7 +172,7 @@ body{
     letter-spacing: 0.02em;
 }
 
-.team-text {
+.text {
     color: #434455;
     text-align: center;
     font-size: 16px;
@@ -209,7 +211,7 @@ body{
     letter-spacing: 0.02em;
 }
 
-.portfolio-text {
+.text {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
