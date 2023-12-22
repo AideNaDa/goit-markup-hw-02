@@ -48,7 +48,7 @@ body{
     letter-spacing: 0.02em;
 }
 
-.header-navigation-lin:hover,
+.header-navigation-link:hover,
 .header-navigation-link:focus{
     color: #404BBF;
 }
@@ -56,11 +56,6 @@ body{
 .header-navigation-list {}
 
 .header-list-items {}
-
-.header-address-contactlink:hover,
-.header-address-contactlink:focus{
-    color: #404BBF;
-}
 
 .header-address {
     font-style: normal;
